@@ -19,12 +19,12 @@ jobs:
     # ##########################
     env:
       # tests jar file path
-      Junit_Test_Jar_File: lab3/cscd212-s23-lab3-sol-tests.jar
+      Junit_Test_Jar_File: lab4/cscd212-s23-lab4-sol-tests.jar
       # the class that has the tests
-      Junit_Class_To_run: cscd211tests.lab3.CSCD212Lab3Test
+      Junit_Class_To_run: cscd212tests.CSCD212Lab4Test
       # the date to auto fail (if today >= deadline then fail)
       # NOTE: need .autotests/jar/deadLine.jar
-      Dead_Line: 04-16-2023
+      Dead_Line: 04-26-2023
 
 
     steps:
