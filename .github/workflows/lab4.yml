@@ -26,7 +26,7 @@ jobs:
       Junit_Class_To_run: cscd212tests.CSCD212Lab4Test
       # the date to auto fail (if today >= deadline then fail)
       # NOTE: need .autotests/jar/deadLine.jar
-      Dead_Line: 04-26-2023
+      Dead_Line: 04-28-2023
 
 
     steps:
